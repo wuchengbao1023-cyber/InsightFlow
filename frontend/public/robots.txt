@@ -1,0 +1,15 @@
+# DataMind OS 2026 - 智能BI平台
+# 机器人访问控制
+
+User-agent: *
+Allow: /
+
+# 禁止爬取API文档
+Disallow: /api/
+Disallow: /docs/
+
+# 允许搜索引擎索引
+Sitemap: https://datamind.ai/sitemap.xml
+
+# 爬取延迟
+Crawl-delay: 2

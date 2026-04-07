@@ -1,0 +1,46 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+*.whl
+
+# === Runtime data ===
+*.log
+*.db
+*.duckdb
+*.duckdb.wal
+backend/data/*.db
+backend/data/*.duckdb
+backend/data/*.duckdb.wal
+backend/data/session.json
+backend/data/uploads/
+backend/data/agent_memory.json
+backend/error_log.txt
+
+# === Environment variables (NEVER commit these) ===
+.env
+.env.local
+.env.production
+!.env.example
+
+# === Frontend ===
+node_modules/
+dist/
+*.local
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+_temp/
+_archive/

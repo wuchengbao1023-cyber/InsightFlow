@@ -1,0 +1,31 @@
+# InsightFlow AI 2026 - 后端依赖
+
+# Web框架 (必须)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# 数据科学 (必须)
+numpy==1.24.3
+pandas==2.1.4
+scipy==1.11.4
+scikit-learn==1.3.2
+
+# LLM 接入 (必须 - DeepSeek/OpenAI)
+aiohttp==3.9.1
+python-dotenv==1.0.0
+
+# 工具 (必须)
+pydantic==2.5.0
+loguru==0.7.2
+
+# 异步 (必须)
+aiofiles==23.2.1
+
+# 数据库 (必须)
+duckdb==0.8.1           # In-Memory OLAP Engine
+aiosqlite==0.19.0       # 异步 SQLite（记忆层用）
+
+# 测试 (开发用)
+pytest==7.4.3
+pytest-asyncio==0.21.1
